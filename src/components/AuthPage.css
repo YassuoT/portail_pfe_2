@@ -1,0 +1,95 @@
+/* Styles for the entire page */
+.container {
+    background-image: url('img2.jpg');
+    background-size: cover;
+ 
+    
+  }
+   
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  /* Styles for the form */
+  form {
+    margin: 40px auto;
+    max-width: 400px;
+    padding: 40px;
+    background-color: #4d4c499a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  label {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #FFD700;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #091296;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  button{
+    display: block;
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #091296;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  button[type="submit"]:hover {
+    background-color: #091296;
+  }
+  button :hover{
+    background-color: #091296;
+
+  }
+  
+  /* Media queries for responsive design */
+  @media screen and (max-width: 480px) {
+    form {
+      padding: 20px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  
+    button[type="submit"] {
+      font-size: 14px;
+    }
+  }
+  
